@@ -16,6 +16,7 @@ const requestHandler = ((req, res) => {
         return res.end();
 
         //Alternate method for reading file -
+        
         //console.log(data.toString()); //This will give error when no file is present
         /*console.log(data);
         return res.end(`<html>
